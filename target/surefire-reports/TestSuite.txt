@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.633 sec <<< FAILURE! - in TestSuite
+f1(Package1.GmailLogin)  Time elapsed: 39.548 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to interpret value as array
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ADMIN-PC', ip: '192.168.43.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20170118123726, version=51.0, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=6836.0, browserVersion=51.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 673055e0-48d9-49af-8cbd-1e664b89c556
+	at Package1.GmailLogin.f1(GmailLogin.java:24)
+
